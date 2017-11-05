@@ -3,15 +3,20 @@ import turtle
 def draw_shapes():
     window = turtle.Screen()
     window.bgcolor("red")
+    brad = turtle.Turtle()
+    rosie = turtle.Turtle()
+    luna = turtle.Turtle()
 
-    draw_square(100, "turtle", "yellow", 2)
-    draw_circle(100, "circle", "blue", 2)
-    draw_triangle(300, "triangle", "black", 2)
+    for i in range(1, 37):
+        draw_square(brad, 100, "turtle", "yellow", 10)
+        brad.right(10)
+        
+    #draw_circle(rosie, 100, "circle", "blue", 2)
+    #draw_triangle(luna, 300, "triangle", "black", 2)
 
     window.exitonclick()
     
-def draw_square(size, shape, color, speed):
-    newSquare = turtle.Turtle()
+def draw_square(newSquare, size, shape, color, speed):
     newSquare.shape(shape)
     newSquare.color(color)
     newSquare.speed(speed)
@@ -21,15 +26,13 @@ def draw_square(size, shape, color, speed):
         newSquare.right(90)
         i+=1
 
-def draw_circle(radius, shape, color, speed):
-    newCircle = turtle.Turtle()
+def draw_circle(newCircle, radius, shape, color, speed):
     newCircle.shape(shape)
     newCircle.color(color)
     newCircle.speed(speed)
     newCircle.circle(radius)
 
-def draw_triangle(size, shape, color, speed):
-    newTriangle = turtle.Turtle()
+def draw_triangle(newTriangle, size, shape, color, speed):
     newTriangle.shape(shape)
     newTriangle.color(color)
     newTriangle.speed(speed)
