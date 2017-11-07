@@ -1,15 +1,8 @@
 import webbrowser
 
 class Movie():
-	#Things to remember
-		#title
-		#storyline
-		#poster_image
-		#youtube_trailer
-	#Things to do
-		#show_trailer()
+	""" The class provides a way to store movie related information """
 	
-
 	def __init__(self, movie_title, movie_storyline, 
 				 poster_image, trailer_youtube):
 		self.title = movie_title
