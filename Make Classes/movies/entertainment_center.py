@@ -13,7 +13,7 @@ toy_story = media.Movie("Toy Story",
 avatar = media.Movie("Avatar", 
 					 "A marine on an alien planet",
 					 "http://cafmp.com/wp-content/uploads/2012/12/Avatar-Neytiri.jpg",
-					 "https://www.youtube.com/watch?v=a0CDJZu4M5I")
+					 "https://www.youtube.com/watch?v=5PSNL1qE6VY")
 boondock_saints = media.Movie("The Boondock Saints",
 							  "Two brothers impose vigilanty justice based on a premonetion from God",
 							  "http://imgc.allpostersimages.com/img/posters/boondock-saints-shepherd-movie-poster_u-L-F7P1DK0.jpg",
