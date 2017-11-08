@@ -15,3 +15,7 @@ class Child(Parent):
 		Parent.__init__(self, last_name, eye_color)
 		self.num_toys = num_toys
 
+	def show_info(self):
+		print "Last Name - " + self.last_name
+		print "Eye Color - " + self.eye_color
+		print "Number of Toys - " +self.num_toys
