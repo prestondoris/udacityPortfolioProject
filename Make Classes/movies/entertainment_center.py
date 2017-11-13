@@ -1,16 +1,14 @@
 import media
 import fresh_tomatoes
 
-#import media is telling your program that you want to use 
-#the contents of your python module(file) called media
-#good practice states that you should keep your class 
-#definitions in one file and use/call the class in another file.
+#import media will provide class Movie to store all instances of movies
+#which will be supplied to the fresh_tomatoes file which generates the HTML
 
 angels_demons = media.Movie("Angels and Demons",
 						"A Harvard Symbologist discovers the resurgance of an ancient brotherhood know as the Illuminati.",
 						"https://i.pinimg.com/originals/cc/8b/98/cc8b989262a93cbafb8f79e79f636335.jpg",
 						"https://www.youtube.com/watch?v=zzjv-GUEDfg")
-avatar = media.Movie("Avatar", 
+avatar = media.Movie("Avatar",
 					 "A marine on an alien planet",
 					 "http://cafmp.com/wp-content/uploads/2012/12/Avatar-Neytiri.jpg",
 					 "https://www.youtube.com/watch?v=5PSNL1qE6VY")
