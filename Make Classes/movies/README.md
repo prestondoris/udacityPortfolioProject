@@ -1,6 +1,7 @@
 # Movie Trailer Website
 
-A database of my favorite movies that displays the movie poster and shows the trailer when a user clicks on the tile.
+A database of my favorite movies that displays the movie poster and shows the
+trailer when a user clicks on the tile.
 
 ## Running the program
 
