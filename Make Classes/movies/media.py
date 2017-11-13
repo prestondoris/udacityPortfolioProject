@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Movie():
     """
     The class Movie provides a way to store the Title, brief
