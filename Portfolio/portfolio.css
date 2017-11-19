@@ -27,10 +27,9 @@ body {
 *
 */
 
-header section {
+#top-header {
     overflow: auto;
     padding: 1em;
-    margin-bottom: 10em;
     border-bottom: solid 3px #a2aebb;
 }
 
@@ -49,17 +48,15 @@ header section {
 
 .name-title h1 {
     font-size: 2.75em;
+
 }
-
-
-
-
 
 /*
 *
 * Main
 *
 */
+
 
 
 
@@ -71,9 +68,8 @@ header section {
 
 .hero-image {
     width: 100%;
-    border-radius: 5px;
-    padding: .1em;
     margin-top: .75em;
+    z-index: 2;
 }
 
 
@@ -98,7 +94,12 @@ header section {
     width: 375px;
     border-radius: 5px;
     margin: 20px auto 0 auto;
-    box-shadow: 0px 0px 5px #404551;
+    box-shadow: 0px 0px 10px #a2aebb;
+}
+
+.tile:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #404551
 }
 
 .tile div {
@@ -117,6 +118,12 @@ header section {
 .tile h3 {
     text-align: center;
     padding: 1em;
+    padding-bottom: 0;
+}
+
+.tile p {
+    padding: 1em;
+    text-align: center;
 }
 
 /*
@@ -128,5 +135,17 @@ header section {
 footer {
     height: 3em;
     width: 100%;
-    color: #404551;
+    margin-top: .75em;
+    background-color: #404551;
+}
+
+
+/*
+*
+* Media Query at 750px wide
+*
+*/
+
+@media screen and (min-width: 750px) {
+    
 }
