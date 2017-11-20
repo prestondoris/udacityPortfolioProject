@@ -1,11 +1,16 @@
 * {
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
 }
 
@@ -25,11 +30,11 @@ body {
 *
 */
 
-header .container {
+.head-container {
     border-bottom: solid 3px #a2aebb;
 }
 
-#top-header {
+.top-header {
     overflow: auto;
     padding: 1em;
 }
